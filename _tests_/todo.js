@@ -15,12 +15,12 @@ describe("To do list test suits", () => {
     const tomorrow = tomorrowDate.toLocaleDateString("en-CA");
 
     add({
-      title: "Pay home rent",
+      title: "Pay property rent",
       dueDate: yesterday,
       completed: true,
     });
     add({
-      title: "Pay tution fees",
+      title: "Pay massage fees",
       dueDate: today,
       completed: true,
     });
