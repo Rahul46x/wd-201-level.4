@@ -1,5 +1,5 @@
 {
-  "name": "shawn",
+  "name": "rahul",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -13,7 +13,7 @@
       "prettier --write ."
     ]
   },
-  "author": "priyanshu gupta <priyanshu.202104072@tulas.edu.in>",
+  "author": "rahul gupta56x <rahul.202104099@tulas.edu.in>",
   "license": "ISC",
   "devDependencies": {
     "eslint": "^8.26.0",
