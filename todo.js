@@ -10,7 +10,6 @@ const todoList = () => {
   const overdue = () => {
     // Write the date check condition here and return the array of overdue items accordingly.
     // fill your code here
-    // ..
     return all.filter(
       (item) => item.dueDate < new Date().toLocaleDateString("en-CA")
     );
@@ -33,7 +32,6 @@ const todoList = () => {
   const dueLater = () => {
     // Write the date check condition here and return the array of todo items that are due later accordingly.
     // fill your code here
-    // ..
     return all.filter(
       (item) => item.dueDate > new Date().toLocaleDateString("en-CA")
     );
@@ -42,7 +40,6 @@ const todoList = () => {
   const toDisplayableList = (list) => {
     // Format the To-Do list here, and return the output string as per the format given above.
     // fill your code here
-    // ..
     // return OUTPUT_STRING
 
     return list
@@ -65,5 +62,5 @@ const todoList = () => {
     toDisplayableList,
   };
 };
-// {(do not change @nything below this line.)} #
+ 
 module.exports = todoList;
